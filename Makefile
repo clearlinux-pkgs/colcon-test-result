@@ -1,5 +1,5 @@
 PKG_NAME := colcon-test-result
-URL = https://files.pythonhosted.org/packages/bc/8d/69972077716afc3fcfbc0d22541eec9ee37665fd57a8800193d6db16c62a/colcon-test-result-0.3.4.tar.gz
+URL = https://files.pythonhosted.org/packages/aa/05/bc6fa697c04553059972729f87deda860b16591e1e3239df01a2010b62dc/colcon-test-result-0.3.5.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
