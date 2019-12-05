@@ -4,7 +4,7 @@
 #
 Name     : colcon-test-result
 Version  : 0.3.8
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/7c/e5/690583c1bbb2c9958287e64a59014e69766644d900c4c10f4ed855bbc2d6/colcon-test-result-0.3.8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7c/e5/690583c1bbb2c9958287e64a59014e69766644d900c4c10f4ed855bbc2d6/colcon-test-result-0.3.8.tar.gz
 Summary  : Extension for colcon to provide information about the test results.
