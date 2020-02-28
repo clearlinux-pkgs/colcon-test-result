@@ -4,7 +4,7 @@
 #
 Name     : colcon-test-result
 Version  : 0.3.8
-Release  : 15
+Release  : 16
 URL      : https://files.pythonhosted.org/packages/7c/e5/690583c1bbb2c9958287e64a59014e69766644d900c4c10f4ed855bbc2d6/colcon-test-result-0.3.8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7c/e5/690583c1bbb2c9958287e64a59014e69766644d900c4c10f4ed855bbc2d6/colcon-test-result-0.3.8.tar.gz
 Summary  : Extension for colcon to provide information about the test results.
@@ -19,6 +19,7 @@ BuildRequires : colcon-core
 %description
 colcon-test-result
 ==================
+
 An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide information about the test results.
 
 %package python
@@ -34,6 +35,7 @@ python components for the colcon-test-result package.
 Summary: python3 components for the colcon-test-result package.
 Group: Default
 Requires: python3-core
+Provides: pypi(colcon-test-result)
 
 %description python3
 python3 components for the colcon-test-result package.
@@ -41,13 +43,14 @@ python3 components for the colcon-test-result package.
 
 %prep
 %setup -q -n colcon-test-result-0.3.8
+cd %{_builddir}/colcon-test-result-0.3.8
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1569983111
+export SOURCE_DATE_EPOCH=1582911249
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
